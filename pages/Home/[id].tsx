@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import supabase from "../../supabaseConfig";
+import { supabase } from "../../supabaseConfig";
 
 const Home = () => {
   const [name, setName] = useState("");
